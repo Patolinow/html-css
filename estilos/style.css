@@ -6,13 +6,7 @@
   font-weight: normal;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  border: none;
-  text-decoration: none;
-  box-sizing: border-box;
-
+:root{
   --Main:#6A994E;
   --Sub:#386641;
   --Extra:#A7C957;
@@ -21,6 +15,14 @@
   --fontePadrao: 'Open Sans', sans-serif;
   --fonteTitulo: 'Oswald', sans-serif;
   --fonteAndroid: 'Android', 'Oswald', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 body {
