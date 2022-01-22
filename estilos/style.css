@@ -20,7 +20,7 @@
 
   --fontePadrao: 'Open Sans', sans-serif;
   --fonteTitulo: 'Oswald', sans-serif;
-  --fonteAndroid: 'Android';
+  --fonteAndroid: 'Android', 'Oswald', sans-serif;
 }
 
 body {
@@ -101,7 +101,7 @@ main h2 {
   color: var(--Sub);
   background-image: linear-gradient(to right, var(--Extra), transparent);
   border-radius: 20px;
-  font-size: 1.8em;
+  font-size: 2em;
   text-indent: 8px;
 }
 
