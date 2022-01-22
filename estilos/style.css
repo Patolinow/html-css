@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Android';
-  src: url('/fontes/idroid.otf') format('opentype');
+  src: url('../fontes/idroid.otf') format('opentype');
   font-weight: normal;
 }
 
@@ -20,7 +20,7 @@
 
   --fontePadrao: 'Open Sans', sans-serif;
   --fonteTitulo: 'Oswald', sans-serif;
-  --fonteAndroid: 'Android', cursive;
+  --fonteAndroid: 'Android', 'Oswald', cursive;
 }
 
 body {
@@ -61,7 +61,7 @@ nav {
 
 nav a{
   color: white;
-  padding: 10px 12px;
+  padding: 10px;
   font-size: 1.2em;
   
 }
