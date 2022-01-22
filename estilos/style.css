@@ -103,7 +103,7 @@ main h2 {
   color: var(--Sub);
   background-image: linear-gradient(to right, var(--Extra), transparent);
   border-radius: 20px;
-  font-size: 2em;
+  font-size: 1.8em;
   text-indent: 8px;
 }
 
