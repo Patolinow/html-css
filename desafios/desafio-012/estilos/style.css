@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Passion+One&display=swap');
+
+@font-face {
+  font-family:'Poetica';
+  src: url('../fontes/Fall in Love.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Pato';
+  src: url('../fontes/DUCKO DEMO.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Comet';
+  src: url('../fontes/Little Comet Bubling Demo Version.otf');
+  font-weight: normal;
+}
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Passion One', cursive; */
+
+:root {
+  --fontePadrao: 'Poetica', cursive;
+  --fonteTitulo: 'Passion One', cursive;
+  --fontePato: 'Pato', 'Open Sans', sans-serif;
+  --fonteFooter: 'Open Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  box-sizing: border-box;
+}
