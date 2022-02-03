@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    caption {
+      font-size: 1.5em;
+      font-weight: bold;
+      padding: 10px;
+      background-color: lightgray;
+    }
+
+    table {
+      width: 500px;
+      border-collapse: collapse;
+      position: relative;
+    }
+
+    thead th {
+      position: sticky;
+      background-color: dimgray;
+      top: -2px;
+    }
+
+    td, th {
+      border: solid black;
+      padding: 10px;
+    }
+
+    thead, tfoot {
+      background-color: dimgray;
+      color: white;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: lightgray;
+    }
+
+    .num {
+      text-align: right;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Uso de tabelas grandes</h1>
+  <!--
+    Anatomia para tabelas grandes
+    Table
+      CAPTION
+      THEAD
+        TR, TD, TH
+      TBODY
+        TR, TD, TH
+      TFOOT 
+        TR, TD, TH
+  -->
+  <table>
+    <caption>População das Unidades Federativas</caption>
+    <thead>
+      <tr>
+        <th scope="col">Estado</th>
+        <th scope="col" style="width: 100px;">População</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>São Paulo</td>
+        <td class="num">50.000.000</td>
+      </tr>
+      <tr>
+        <td>Minas Gerais</td>
+        <td class="num">22.000.000</td>
+      </tr>
+      <tr>
+        <td>Rio de Janeiro</td>
+        <td class="num">18.000.000</td>
+      </tr>
+      <tr>
+        <td>Bahia</td>
+        <td class="num">15.000.000</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th scope="row">Total de Habitantes</th>
+        <td class="num"><strong>90.000.000</strong></td>
+      </tr>
+    </tfoot>
+  </table>
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam alias sequi unde maiores maxime totam voluptate neque numquam id odio molestias facere ipsum reprehenderit libero esse, suscipit atque iste tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil asperiores rem inventore dolorem natus, possimus, quisquam ab et, animi ipsa consequuntur molestiae earum magni quis corrupti quasi recusandae! Veniam, laboriosam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique obcaecati commodi ratione minus rerum porro numquam, animi natus temporibus est vero itaque atque laborum, aliquid magnam ipsa laboriosam perferendis maiores! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed commodi quam quas distinctio accusamus quidem itaque vel perspiciatis cupiditate beatae, praesentium consequatur unde iure facere. Facere voluptates quibusdam nihil. Laborum!
+  </p>
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam alias sequi unde maiores maxime totam voluptate neque numquam id odio molestias facere ipsum reprehenderit libero esse, suscipit atque iste tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil asperiores rem inventore dolorem natus, possimus, quisquam ab et, animi ipsa consequuntur molestiae earum magni quis corrupti quasi recusandae! Veniam, laboriosam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique obcaecati commodi ratione minus rerum porro numquam, animi natus temporibus est vero itaque atque laborum, aliquid magnam ipsa laboriosam perferendis maiores! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed commodi quam quas distinctio accusamus quidem itaque vel perspiciatis cupiditate beatae, praesentium consequatur unde iure facere. Facere voluptates quibusdam nihil. Laborum!
+  </p>
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam alias sequi unde maiores maxime totam voluptate neque numquam id odio molestias facere ipsum reprehenderit libero esse, suscipit atque iste tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil asperiores rem inventore dolorem natus, possimus, quisquam ab et, animi ipsa consequuntur molestiae earum magni quis corrupti quasi recusandae! Veniam, laboriosam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique obcaecati commodi ratione minus rerum porro numquam, animi natus temporibus est vero itaque atque laborum, aliquid magnam ipsa laboriosam perferendis maiores! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed commodi quam quas distinctio accusamus quidem itaque vel perspiciatis cupiditate beatae, praesentium consequatur unde iure facere. Facere voluptates quibusdam nihil. Laborum!
+  </p>
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam alias sequi unde maiores maxime totam voluptate neque numquam id odio molestias facere ipsum reprehenderit libero esse, suscipit atque iste tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil asperiores rem inventore dolorem natus, possimus, quisquam ab et, animi ipsa consequuntur molestiae earum magni quis corrupti quasi recusandae! Veniam, laboriosam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique obcaecati commodi ratione minus rerum porro numquam, animi natus temporibus est vero itaque atque laborum, aliquid magnam ipsa laboriosam perferendis maiores! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed commodi quam quas distinctio accusamus quidem itaque vel perspiciatis cupiditate beatae, praesentium consequatur unde iure facere. Facere voluptates quibusdam nihil. Laborum!
+  </p>
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam alias sequi unde maiores maxime totam voluptate neque numquam id odio molestias facere ipsum reprehenderit libero esse, suscipit atque iste tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil asperiores rem inventore dolorem natus, possimus, quisquam ab et, animi ipsa consequuntur molestiae earum magni quis corrupti quasi recusandae! Veniam, laboriosam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique obcaecati commodi ratione minus rerum porro numquam, animi natus temporibus est vero itaque atque laborum, aliquid magnam ipsa laboriosam perferendis maiores! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed commodi quam quas distinctio accusamus quidem itaque vel perspiciatis cupiditate beatae, praesentium consequatur unde iure facere. Facere voluptates quibusdam nihil. Laborum!
+  </p>
+</body>
+</html>
