@@ -11,27 +11,35 @@ body {
   background-size: cover;
 }
 
-main {
-  display: flex;
-}
-
 iframe {
-  position: absolute;
-  width: 277px;
+   width: 277px;
   height: 480px;
-
-  left: 40.5vw;
-  top: 27.8vh;
 }
 
-#phone {
-  margin: 20vh auto 0;
-  display: block;
+section:nth-child(1) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-image: url(../assets/imagens/frame-iphone.png);
+  height: 627px;
+  width: 311px;
+}
+
+section:nth-child(2) {
+  text-align: right;
 }
 
 ul img {
   border-radius: 100%;
   width: 75px;
+}
+
+ul img:hover {
+  box-shadow: 1px 1px 1px black;
+  transition: 1s;
+  transform: translate(-5px, -5px);
 }
 
 li {
