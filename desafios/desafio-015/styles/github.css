@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+img {
+  width: 100vw;
+}
+
+button {
+  display: block;
+  padding: 15px;
+  background-color: rgb(0, 0, 0);
+  width: 100VW;
+
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+button:hover {
+  background-color: rgb(24, 24, 24);
+  transition: 300ms;
+  cursor: pointer;
+}

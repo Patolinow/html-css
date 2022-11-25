@@ -12,8 +12,13 @@ body {
 }
 
 iframe {
-   width: 277px;
-  height: 480px;
+  position: relative;
+  top: 12.8%;
+  left: 7.1%;
+   width: 267px;
+  height: 471px;
+  border-radius: 1%;
+  
 }
 
 section:nth-child(1) {
@@ -34,11 +39,12 @@ section:nth-child(2) {
 ul img {
   border-radius: 100%;
   width: 75px;
+  box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.4);
 }
 
 ul img:hover {
-  box-shadow: 1px 1px 1px black;
-  transition: 1s;
+  box-shadow: 3px 4px 20px rgba(0, 0, 0,0.6);
+  transition: .5s;
   transform: translate(-5px, -5px);
 }
 
