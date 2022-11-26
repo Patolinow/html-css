@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+</head>
+
+<body>
+  <fieldset>
+    <legend>Último form true da true agora vai mesmo</legend>
+    <form action="">
+      <p>
+        <label for="year">em queano você nasceu?</label>
+        <input type="number" name="year" id="year" min="1900" max="2022" oninput="calcIdade()">
+      </p>
+
+      <p>
+        <label for="age">Sua idade é:</label>
+        <output id="age"></output>
+      </p>
+
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpar</button>
+    </form>
+  </fieldset>
+
+  <script>
+    function calcIdade() {
+      let now = new Date().getFullYear()
+      age.innerHTML = Number(now) - Number(year.value)
+    }
+  </script>
+</body>
+
+</html>
