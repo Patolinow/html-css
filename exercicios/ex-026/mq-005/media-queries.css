@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+  #menu {
+    display: none;
+  }
+  #items {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  article {
+    width: 50vw;
+    margin: 20px auto;
+  }
+}

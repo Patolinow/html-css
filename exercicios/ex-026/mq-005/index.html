@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media-queries.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media queries</title>
+</head>
+
+<body onresize="changed()">
+  <header>
+    <h1>Meu Site</h1>
+    <nav>
+      <span id="menu" onclick="menu()">
+        <img src="../images/menu_FILL0_wght400_GRAD0_opsz48.svg" alt="Menu">
+      </span>
+      <ul id="items">
+        <a href="#">
+          <li>Opção 1</li>
+        </a>
+        <a href="#">
+          <li>Opção 2</li>
+        </a>
+        <a href="#">
+          <li>Opção 3</li>
+        </a>
+        <a href="#">
+          <li>Opção 4</li>
+        </a>
+        <a href="#">
+          <li>Opção 5</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h2>Testando media queries</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam numquam molestiae placeat doloribus quia alias,
+        voluptate a dolorem soluta adipisci perspiciatis eveniet minima! Fugiat dolorum reiciendis a alias, sit qui!
+        Laudantium saepe perferendis tempora ratione natus fugiat, laborum ipsam necessitatibus ullam excepturi sed
+        optio facere nulla vero. Repudiandae sapiente ex veniam eum numquam. Illo repellendus facilis itaque?
+        Repellendus, sint ex.
+        Quas ratione blanditiis debitis illum adipisci culpa, nesciunt earum ullam. Commodi maiores, voluptas alias,
+        placeat assumenda neque libero totam nihil minima dignissimos fugit! Perferendis placeat pariatur, eum quia
+        error blanditiis.
+      </p>
+
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil soluta, ullam tempore maiores corporis cumque
+        fugit aspernatur eaque ex temporibus pariatur aperiam nobis, alias blanditiis. Error officia deserunt quas
+        sapiente.
+        Modi repellat accusamus facere soluta voluptatibus eaque nulla, tempore cum quo maxime iusto facilis animi
+        doloremque architecto autem perferendis ipsa inventore. Accusantium aliquam placeat incidunt, accusamus odit
+        minima ut doloribus!
+        Expedita voluptatem incidunt ratione provident facere ab officiis. Corrupti porro dolorem excepturi quod rerum
+        quis quibusdam reprehenderit enim. Perspiciatis laborum aspernatur minus recusandae, officiis natus velit animi
+        ducimus eaque aut?
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptate delectus. Expedita dicta corporis
+        accusamus ullam rerum eos perspiciatis provident mollitia minima sapiente, officiis neque quas quaerat quae!
+        Fuga, quam.
+        Dolore qui molestiae excepturi ea maxime, blanditiis sit error! Repellendus quia architecto, quod quos pariatur
+        hic officia odit rerum quasi mollitia voluptate odio corrupti, esse accusantium ea necessitatibus quis magnam?
+        Culpa repellendus ex incidunt expedita ipsam laborum quisquam veritatis rerum enim totam laboriosam eveniet,
+        possimus quibusdam non esse voluptatem reiciendis nesciunt est obcaecati ab pariatur vitae corrupti ipsa sequi!
+        Illum.
+      </p>
+    </article>
+  </main>
+</body>
+<script>
+  function changed() {
+    if (window.innerWidth >= 768) {
+      items.style.display = "flex"
+    }
+    else {
+      items.style.display = none
+    }
+  }
+
+  function menu() {
+    if (items.style.display == "block") {
+      items.style.display = "none"
+    } 
+    else {
+      items.style.display = "block"
+    }
+
+  }
+</script>
+
+</html>
