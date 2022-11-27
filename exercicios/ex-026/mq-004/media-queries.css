@@ -1,0 +1,57 @@
+@media print {
+  body {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  h1 {
+    color: black;
+    text-shadow: none;
+  }
+
+  main {
+    border: 1px solid black;
+  }
+
+  #print {
+    display: block;
+  }
+  main::after {
+    content: "Essa impressão foi realizada no canal cursoemvideo.com";
+  }
+}
+
+@media screen and (max-width:768px) {
+  #phone {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-image: url(../images/back-tablet.jpg);
+  }
+
+  #tablet {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  body {
+    background-image: url(../images/back-pc.jpg);
+  }
+
+  #pc {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  body {
+    background-image: url(../images/back-tv.jpg);
+  }
+
+  #tv {
+    display: block;
+  }
+}
