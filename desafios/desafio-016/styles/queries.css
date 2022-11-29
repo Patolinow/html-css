@@ -1,10 +1,10 @@
-/* @media screen and (max-height: 550px) {
-  main {
-    margin-top: 0;
+@media screen and (max-height: 550px) {
+  body {
+    padding-top: 20px;
   }
-} */
+}
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 655px) {
   body {
     padding-top: 30vh;
   }

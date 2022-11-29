@@ -23,7 +23,7 @@ html {
 
 body {
   height: 100%;
-  padding-top: 20vw;
+  padding-top: 100px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   background: linear-gradient(var(--principal), var(--secondary)) no-repeat;
   background-size: cover;
