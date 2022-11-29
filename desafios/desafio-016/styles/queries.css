@@ -1,0 +1,36 @@
+@media screen and (min-width: 600px) {
+  main {
+    display: flex;
+    max-width: 80vw;
+    margin-top: 30vh;
+  }
+
+  main > img {
+    width: 40%;
+    border-radius: 20px 0 0 20px;
+  }
+
+  fieldset {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  main {
+    flex-direction: row-reverse;
+    max-width: 1100px;
+  }
+
+  fieldset {
+    border-radius: 20px;
+  }
+
+  h1 {
+    margin-top: 25px;
+  }
+
+  main > img {
+    border-radius: 0 20px 20px 0;
+    width: 50%;
+  }
+}
