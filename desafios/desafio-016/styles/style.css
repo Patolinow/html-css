@@ -18,17 +18,21 @@
 
 html {
   height: 100vh;
-  background: linear-gradient(var(--principal), var(--secondary)) no-repeat;
-  background-size: cover;
+  
 }
 
 body {
+  height: 100%;
+  padding-top: 20vw;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background: linear-gradient(var(--principal), var(--secondary)) no-repeat;
+  background-size: cover;
+  
 }
 
 main {
   width: 80vw;
-  margin: 20vw auto 0;
+  margin: auto;
   background-color: white;
   border-radius: 22px;
 
@@ -125,15 +129,25 @@ button {
   cursor: pointer;
 }
 
-#login,
-#forgot:hover {
+#login {
   color: white;
   background-color: var(--principal);
   border: 1px solid var(--principal);
 }
 
-#forgot,
 #login:hover {
+  color: var(--principal);
+  background-color: var(--outline);
+  border-color: var(--outline);
+}
+
+#forgot:hover {
+  color: white;
+  background-color: var(--secondary) ;
+  border-color: var(--secondary);
+}
+
+#forgot {
   color: var(--principal);
   background-color: white;
   border: 1px solid var(--principal);

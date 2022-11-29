@@ -1,14 +1,17 @@
-@media screen and (orientation: landscape) {
+/* @media screen and (max-height: 550px) {
   main {
     margin-top: 0;
   }
-}
+} */
 
 @media screen and (min-width: 600px) {
+  body {
+    padding-top: 30vh;
+  }
+
   main {
     display: flex;
     max-width: 100vw;
-    margin-top: 30vh;
   }
 
   main > img {
