@@ -1,3 +1,9 @@
+@media screen and (orientation: landscape) {
+  main {
+    margin-top: 0;
+  }
+}
+
 @media screen and (min-width: 600px) {
   main {
     display: flex;
